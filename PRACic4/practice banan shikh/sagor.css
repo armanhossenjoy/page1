@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100dvh;
+    width: 100dvw;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    overflow-x: hidden;
+  
+}
+.nav{
+    top: 0;
+    left: 0;
+    position: absolute;
+     width: 100%;
+     height: 10vh;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     z-index: 10;
+}
+.lm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial;
+    font-weight: bold;
+}
+.logo p{
+    padding-left: 10px;
+}
+.logo .s{
+    color: brown;
+}
+.logo .a{
+    color: rgba(108, 172, 78, 0.555);
+}
+.logo .g{
+    color: rgb(55, 93, 100);
+}
+.logo .o{
+    color: rgb(121, 121, 121);
+}
+.logo .r{
+    color: rgb(115, 203, 209);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 60%;
+    list-style: none;
+}
+.menu li{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon h1{
+    font-size: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    transform: translateX(60px);
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    font-family: fantasy;
+}
+.text .title{
+    color: rgb(56, 153, 148);
+}
+.text .headline{
+color: rgb(77, 69, 54);
+}
+.text .about{
+   line-height: 30px;
+   font-size: 14px;
+}
+.text button{
+    width: 30%;
+    height: 5vh;
+    border-radius:100px  ;
+    background-color: rgb(236, 66, 66);
+    border: none;
+    color: aliceblue;
+}
+.right{
+    width: 50%;
+    
+    height: 100vh;
+    overflow: hidden;
+}
+.one{
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    z-index: 2;
+    left: 60vw;
+
+}
+.smol{
+    position: absolute;
+    height: 75vh;
+    width: 30%;
+    z-index: 3;
+    bottom: 0;
+    
+}
